@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import junk "fmt"
 
 func main() {
-	fmt.Println("Hello Gopher!")
+	var hello = "Hello!"
+	junk.Println(hello)
+	hey()
+	bye()
 }
